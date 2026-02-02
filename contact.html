@@ -19,11 +19,33 @@
     </nav>
     <main>
         <section>
-            <h2>Contact Form</h2>
+            <h2>Join the eNewsletter</h2>
+            <form>
+                <label for="fullName">Full Name</label><br>
+                <input type="text" name="fullName" id="fullName" required><br>
+
+                <label for="email">Email</label></br>
+                <input type="text" name="email" id="email" required><br>
+
+                <label for="comments">Comments</label><br>
+                <textarea name="comments" id="comments" rows="3" cols="50">Comments</textarea><br>
+
+                <fieldset>
+                    <legend>How did you find us?</legend>
+                    <label for="friend"><input type="radio" name="findUs" id="friend" value="friend">A Friend</label>
+                    <label for="instagram"><input type="radio" name="findUs" id="instagram" value="instagram">Instagram</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What kind of cat(s) do you have?</legend>
+                    <label for="tabby"><input type="checkbox" name="cats" id="tabby" value="tabby">Tabby</label>
+                    <label for="calico"><input type="checkbox" name="cats" id="calico" value="calico">Calico</label>
+                </fieldset>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy copyright 2026</p>
+        <p>&copy 2026 Cat Lovers Inc.</p>
     </footer>
 </body>
 </html>
